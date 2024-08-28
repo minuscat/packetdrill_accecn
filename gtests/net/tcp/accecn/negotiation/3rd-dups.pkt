@@ -13,7 +13,7 @@ sysctl -q net.ipv4.tcp_ecn=3
 +.002 > SW. 0:0(0) ack 1 <mss 1460,ECN e1b 1 ceb 0 e0b 1,nop,nop,nop,sackOK,nop,wscale 8>
 
 // SYN/ACK rexmitted => two 3rd ACKs in-flight
-+1.0~+1.1 > SW. 0:0(0) ack 1 <mss 1460,ECN e1b 1 ceb 0 e0b 1,nop,nop,nop,sackOK,nop,wscale 8>
++1.0~+1.1 > SW. 0:0(0) ack 1 <mss 1460,nop,nop,sackOK,nop,wscale 8>
 // Delivered 1st 3rd ACK
 +0.05 < [ect0] W. 1:1(0) ack 1 win 257 <ECN e0b 1 ceb 0 e1b 1,nop>
 +.002 accept(3, ..., ...) = 4
