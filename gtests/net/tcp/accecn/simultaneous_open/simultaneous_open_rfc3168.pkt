@@ -6,7 +6,7 @@ sysctl -q net.ipv4.tcp_timestamps=0
 `
 
     0 socket(..., SOCK_STREAM, IPPROTO_TCP) = 4
-+.002 ... 0.095 connect(4, ..., ...) = 0
++.002 ... 0.075 connect(4, ..., ...) = 0
 
 +.002 > SEW 0:0(0) <mss 1460,nop,nop,sackOK,nop,wscale 8>
 
